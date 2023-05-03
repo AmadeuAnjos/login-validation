@@ -1,7 +1,10 @@
+import styles from '../styles/Login.module.css'
+import LoginCard from 'src/components/loginCard/loginCard'
+
 export default function LoginPage() {
   return (
-    <div>      
-      <h1>Hello World - Login Page</h1>
+    <div className={styles.background}>      
+      <LoginCard />
     </div>
   )
 }
