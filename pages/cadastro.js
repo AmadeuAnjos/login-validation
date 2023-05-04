@@ -1,8 +1,9 @@
 import LoginCard from 'src/components/loginCard/loginCard'
+import styles from '../styles/Cadastro.module.css'
 
 export default function CadastroPage() {
     return (
-      <div>      
+      <div className={styles.background}>      
         <LoginCard />
       </div>
     )
