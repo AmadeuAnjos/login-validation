@@ -1,0 +1,6 @@
+.button {
+    background: -webkit-linear-gradient(to left, #b721ff, #21d4fd);
+    background: -o-linear-gradient(to left, #b721ff, #21d4fd);
+    background: -moz-linear-gradient(to left, #b721ff, #21d4fd);
+    background: linear-gradient(to left, #b721ff, #21d4fd);
+}
