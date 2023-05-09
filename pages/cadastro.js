@@ -12,10 +12,12 @@ export default function CadastroPage() {
           <Input type="text" placeholder="Seu nome" />
           <Input type="email" placeholder="Seu e-mail" />
           <Input type="password" placeholder="Sua senha" />
-          <Button>Login</Button>
-          <Link href="/login">Login</Link>
+          <Button>Cadastrar</Button>
+          <Link className={styles.paragraph} href="/login"><e className={styles.e}>Login</e></Link>
         </form>
       </LoginCard>
     </div>
   )
 }
+
+//1:02:00 video

@@ -7,12 +7,12 @@ import Input from '../src/components/input/input'
 export default function CadastroPage() {
   return (
     <div className={styles.background}>      
-      <LoginCard title="Entrar na sua conta">
+      <LoginCard title="Entrar na sua conta"> 
         <form className={styles.form}>
           <Input type="email" placeholder="Seu e-mail" />
           <Input type="password" placeholder="Sua senha" />
           <Button>Login</Button>
-          <p>Não tem Login ?<Link href="/cadastro">Cadastre-se</Link></p>
+          <p className={styles.paragraph}>Não tem Login ? <Link href="/cadastro"> <e className={styles.e}>Cadastre-se</e></Link></p>
         </form>
       </LoginCard>
     </div>
