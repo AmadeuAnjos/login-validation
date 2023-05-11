@@ -26,3 +26,9 @@
 .e:hover {
     border-bottom: 1px solid white;
 }
+
+.error {
+    color: #df3535;
+    font-family: Arial, sans-serif;
+    margin-left: 5px;
+}
