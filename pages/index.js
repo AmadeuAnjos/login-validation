@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import { verifica } from '../services/user'
+//import { verifica } from '../services/user'
 import { getCookie } from 'cookies-next'
 
 const inter = Inter({ subsets: ['latin'] })
