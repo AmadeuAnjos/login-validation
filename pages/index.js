@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-//import { verifica } from '../services/user'
+import { verifica } from '../services/user'
 import { getCookie } from 'cookies-next'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,14 +16,19 @@ export default function Home() {
 export const getServerSideProps = async ({ req, res }) => {
   try {
     const token = getCookie('authorization', { req, res })
-    console.log(token)
+    if (!token) throw new Error('Token inválido')
 
+    verifica(token)
     return {
       props: {}
     }
     
   } catch (err) {
     return {
+      redirect: {
+        permanent: false,
+        destination: '/login'
+      },
       props: {}
     }
   }
