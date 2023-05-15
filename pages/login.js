@@ -35,7 +35,7 @@ export default function CadastroPage() {
       const json = await response.json()
       if (response.status !== 200) throw new Error(json)
 
-      setCookie('autorization', json)
+      setCookie('authorization', json)
       router.push('/')
     } catch (err) {
       setError(err.message)
