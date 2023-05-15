@@ -7,6 +7,27 @@
   min-height: 100vh;
 }
 
+.log {
+  width: 450px;
+  height: 300px;
+  background-color: #333333;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 200px auto;  
+}
+
+.paragraph {
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+}
+
+
 .description {
   display: inherit;
   justify-content: inherit;
