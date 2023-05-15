@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![login_screen](https://github.com/AmadeuAnjos/login-validation/assets/53497771/6ef31d1d-995b-4d59-921c-1d47724b0401)
 
 ## Getting Started
 
